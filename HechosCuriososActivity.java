@@ -1,6 +1,7 @@
 package com.example.david.hechoscuriosos;
 
 import android.app.Activity;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,6 +12,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.Random;
+
+
 
 
 public class HechosCuriososActivity extends Activity {
@@ -29,7 +32,6 @@ public class HechosCuriososActivity extends Activity {
         factLabel = (TextView) findViewById(R.id.HechoCuriosoTextView);
         fondo = (RelativeLayout) findViewById(R.id.fondo);
         factbook = new FactBook();
-
 
     }
 

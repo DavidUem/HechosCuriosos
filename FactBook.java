@@ -6,6 +6,7 @@ import java.util.Random;
  * Created by David on 11/11/14.
  */
 public class FactBook {
+
     private   Random rnd;
 
     FactBook(){
