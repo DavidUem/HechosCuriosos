@@ -6,7 +6,7 @@
     <string name="action_settings">Settings</string>
 
     <string-array
-        name="hechos">
+        name="hechos_curiosos">
         <item>Ants stretch when they wake up in the morning.</item>
         <item>Ostriches can run faster than horses.</item>
         <item>The gold medals from the Olympic Games are made of silver.</item>
