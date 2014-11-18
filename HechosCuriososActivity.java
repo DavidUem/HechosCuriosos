@@ -38,7 +38,7 @@ public class HechosCuriososActivity extends Activity {
     public void factButtonAction(View view) {
 
         TextView factLabel = (TextView) findViewById(R.id.HechoCuriosoTextView);
-        factLabel.setText(factbook.getRandomFact());
+        factLabel.setText(factbook.getRandomFact(HechosCuriososActivity.this));
         fondo.setBackgroundColor(ColorWheel.getRandomColor());
 
 
